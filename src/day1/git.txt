@@ -1,0 +1,30 @@
+Git
+-Version Control
+
+
+Problem before git
+-Accidental deletion of the files
+-Revert the code in case of issue
+-Code merge was difficult
+-Tracking the change made
+-Syncing only the change
+
+Download the git: https://git-scm.com/downloads
+
+Authentication
+1. Basic Authentication (Username and password)
+
+SSH Authentication (Key pair are used)
+-public key (to be shared)
+private key (must not be shared)
+Creating SSH Key: ssh-keygen -t ed25519
+
+Git Command
+
+ For the first time
+ 1. Git Init
+ 2.git remote and add origin
+ 3. git add file name (one.bishal)
+ 4. git commit -am "commit messsage" (Intial Commit)
+ 5 Git push origin (branch name- master)
+
