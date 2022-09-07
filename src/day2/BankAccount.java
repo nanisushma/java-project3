@@ -3,14 +3,17 @@ package day2;
 public class BankAccount {
 
     //States
-    //- Account Number (String)
-    //-Account Holder Name (String)
-    //-Connected Mobile Number (Float)
-    //-Address (String)
-    //-Bank Name (string)
-    //-BSB Number (Float)
-    //-Bank Balance (Double)
-    //-Social Security Number (Float)
+    String accountNumber;
+    String accountHolderName;
+    String connectedMobileNumber;
+    String address;
+    String bankName;
+    float bsbNumber;
+    double bankBalance;
+    String socialSecurity;
+    String bankAccountType;
+
+
 
 
     //Behaviour
