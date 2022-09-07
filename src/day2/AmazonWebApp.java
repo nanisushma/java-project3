@@ -19,6 +19,14 @@ public class AmazonWebApp {
 
         Mobile samsung22 = new Mobile();
         samsung22.brand = "Samsung";
+        samsung22.color = "blue";
+        samsung22.serialNumber = "57363783773rtds";
+        samsung22.price = 2456;
+        samsung22.size = 6.0;
+
+
+
+
     }
 
 }

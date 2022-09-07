@@ -4,26 +4,19 @@ public class Laptop {
 
 
     //States
-    //-Brand (String)
-    //-Color (String)
-    //-Size  (Float)
-    //-Price (Float)
-    //-Screen Size (float)
-    //-Screen Resolution (String)
-    //-Screen Type (String)
-    //-Processor Model (String)
-    //-Processor Speed (Float)
-    //-Total Storage Capacity (Float)
-    //-System Memory (Float)
-    //-Operating System (OS/Chrome) (String)
-    //-Battery Type (String)
-    //-Keyword Type (String)
-    //-Connectivity (String)
-    //-Camera (Float)
-    //-Features (String)
-    //-Dimension (String)
-    //-Certification and Listing (String)
-    //-Storage (Init)
+    String brand;
+    String color;
+    double size;
+    float price;
+    String screenType;
+    String processorModel;
+    String operatingSystem;
+    double speed;
+    int storageCapacity;
+    float systemMemory;
+    String connectivity;
+
+
 }
 
 
