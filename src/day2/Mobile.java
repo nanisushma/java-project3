@@ -4,17 +4,19 @@ public class Mobile {
 
 
     // States
-    //-brand (String)
-    //-color (String)
-    //-serial number (Float)
-    //-size (Float)
-    //-number of camera (Float)
-    //-storage (Init)
-    //-storage unit Gb
-    //-model (String)
-    //-description (String)
-    //-image (String)
-    //-price (Float)
+    String brand;
+    String color;
+    String serialNumber;
+    double size;
+    int numberOfCamera;
+    int storage;
+    String storageUnit;
+    String os;
+    String model;
+    String description;
+    String images;
+    float price;
+    boolean hasAmazonGuarantee;
 
     //Behaviour
 
