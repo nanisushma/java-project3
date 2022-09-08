@@ -5,14 +5,30 @@ public class BankAccountWeb {
     public static void main(String[] args) {
 
         BankAccount bishalAccount= new BankAccount();
-        bishalAccount. accountNumber = "35478972788";
-        bishalAccount.accountHolderName = "Bishal Karki";
-        bishalAccount.bankBalance = 78000;
+       // bishalAccount.setAccountNumber();
+        bishalAccount.setAccountHolderName ("Bishal Karki");
+        bishalAccount.setBankBalance(7000);
         bishalAccount.bankName = "bank of america";
-        bishalAccount.connectedMobileNumber = "4663782889";
-        bishalAccount.address = "Hawaii Honolulu";
-        bishalAccount.socialSecurity = "7874683839";
-        bishalAccount.bankAccountType = "Saving";
+        bishalAccount.setConnectedMobileNumber("9849018753");
+        bishalAccount.setAddress("Hawaii Honolulu");
+        bishalAccount.setBankAccountType("Saving");
+
+
+
+       System.out.print(bishalAccount.getAccountNumber());
+       System.out.print(bishalAccount.getAccountHolderName());
+       System.out.print(bishalAccount.getConnectedMobileNumber());
+       System.out.print(bishalAccount.getBankBalance());
+       System.out.print(bishalAccount.getAddress());
+       System.out.print(bishalAccount.getBankAccountType());
+
+
+
+
+
+
+
+
 
 
 
