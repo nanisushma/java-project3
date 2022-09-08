@@ -4,23 +4,15 @@ public class BankAccount {
 
     //States
     private String accountNumber = "984018753";
-    // get but not set
      private String accountHolderName;
-    // Get and Set both allowed
     private String connectedMobileNumber;
-    // Get and set both allowed
     private String address;
-    // Get and set both allowed
     String bankName;
-
-     float bsbNumber;
-
+    float bsbNumber;
     private double bankBalance;
-    //get and set both allowed
     String socialSecurity;
-    // Get but not set
     String bankAccountType;
-    //get and set both allowed
+
 
  public String getAccountNumber() {
   return accountNumber;

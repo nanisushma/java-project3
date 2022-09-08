@@ -5,14 +5,25 @@ public class BestBuyWeb {
     public static void main(String[] args) {
 
         Laptop macbook = new Laptop();
-        macbook.brand = "ios";
-        macbook.color = "gray";
-        macbook.connectivity = "wireless";
-        macbook.size = 13.5;
-        macbook.processorModel = "1.1ghz";
-        macbook.operatingSystem = "mac os";
-        macbook.storageCapacity = 256;
-        macbook.speed = 1.1;
+
+        macbook.setBrand("ios");
+        macbook.setColor("gray");
+        macbook.setConnectivity("wireless");
+        macbook.setSize(13.5);
+        macbook.setProcessorModel("1.1ghz");
+        macbook.setOperatingSystem("mac os");
+        macbook.setStorageCapacity(256);
+        macbook.setSpeed(2152);
+
+        System.out.print(macbook.getBrand());
+        System.out.print(macbook.getColor());
+        System.out.print(macbook.getConnectivity());
+        System.out.print(macbook.getSize());
+        System.out.print(macbook.getProcessorModel());
+        System.out.print(macbook.getOperatingSystem());
+        System.out.print(macbook.getStorageCapacity());
+        System.out.print(macbook.getSpeed());
+
 
 
 
