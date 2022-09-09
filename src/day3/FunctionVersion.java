@@ -6,7 +6,6 @@ public class FunctionVersion {
 
     int vivek = 60;
     int sir10 = 70;
-    int ram = 20;
     add(vivek, sir10);
     int add1 = addAndRetrun(vivek,sir10);
     System.out.print(add1);
