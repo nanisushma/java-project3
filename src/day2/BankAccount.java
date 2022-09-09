@@ -66,4 +66,12 @@ public class BankAccount {
     //-Deposit
     //-Withdraw
     //-Transfer
-}
+
+    public void transferBalance(BankAccount fromAccount, BankAccount toAccount, double balance){
+     double fromFinalBalance = fromAccount.getBankBalance()- balance;
+     double toFinalBalance = toAccount.getBankBalance() + balance;
+
+     fromAccount.setBankBalance(fromFinalBalance);
+     toAccount.setBankBalance(toFinalBalance);
+     }
+    }
