@@ -83,6 +83,7 @@ public class Laptop {
         return storageCapacity;
     }
 
+
     public void setStorageCapacity(int storageCapacity) {
         this.storageCapacity = storageCapacity;
     }
