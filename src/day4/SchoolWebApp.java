@@ -12,6 +12,7 @@ public class SchoolWebApp {
         student1.setStudentclass(6);
         student1.setRollnumber(1);
         student1.takeLeave();
+        student1.isSelected();
 
 
         System.out.print(student1.getName());
@@ -19,6 +20,7 @@ public class SchoolWebApp {
         System.out.print(student1.getStudentclass());
         System.out.print(student1.getRollnumber());
        // System.out.print(student1.gettakeleave);
+        System.out.print(student1.isSelected());
 
 
         Teacher teacher1 = new Teacher();
@@ -28,10 +30,12 @@ public class SchoolWebApp {
         teacher1.setSubject("Computer");
         teacher1.takeLeave();
 
+
         System.out.print(teacher1.getName());
         System.out.print(teacher1.getAge());
         System.out.print(teacher1.getSubject());
         //System.out.print(teacher1.gettakeleave);
+
 
 
     }
