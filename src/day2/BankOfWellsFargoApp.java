@@ -20,7 +20,7 @@ public class BankOfWellsFargoApp {
         bishalAccount.bankName = "bank of america";
         bishalAccount.setConnectedMobileNumber("9849018753");
         bishalAccount.setAddress("Hawaii Honolulu");
-        bishalAccount.setBankAccountType("Saving");
+        bishalAccount.setBankAccountType(BankAccountType.SAVING);
 
 
 
@@ -44,7 +44,7 @@ public class BankOfWellsFargoApp {
         friendAccount.bankName = "bank of america";
         friendAccount.setConnectedMobileNumber("9849018753");
         friendAccount.setAddress("Hawaii Honolulu");
-        friendAccount.setBankAccountType("Saving");
+        friendAccount.setBankAccountType(BankAccountType.SAVING);
 
         // Transfer 2000 from bishal account to friend account
 

@@ -18,7 +18,8 @@ public class BankAccount {
     float bsbNumber;
     private double bankBalance;
     String socialSecurity;
-    String bankAccountType;
+
+    private BankAccountType BankAccountType;
 
 
  public String getAccountNumber() {
@@ -59,12 +60,11 @@ public class BankAccount {
 
 
 
-    public String getBankAccountType() {
-        return bankAccountType;
-    }
+    public BankAccountType getBankAccountType() {
+        return BankAccountType;}
 
-    public void setBankAccountType(String bankAccountType) {
-        this.bankAccountType = bankAccountType;
+    public void setBankAccountType(BankAccountType bankAccountType) {
+        this.BankAccountType = bankAccountType;
     }
     //Behaviour
 

@@ -7,11 +7,12 @@ public class Polymorphism {
 
         add(2, 3);
         add(2.0f, 3.0f);
+        add(2.0, 3.0);
 
     }
 
-    public static void add(int a, int b) {
-        int add1 = a + b;
+    public static void add(double a,double b) {
+        double add1 = a + b;
         System.out.print(add1);
 
     }
