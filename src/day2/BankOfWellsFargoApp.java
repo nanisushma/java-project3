@@ -1,6 +1,14 @@
 package day2;
 
-public class BankAccountWeb {
+/**
+ * This application is used by Bank of wells fargo
+ *
+ * @author Sushma Karki
+ * @version 1.0.0
+ *
+ */
+
+public class BankOfWellsFargoApp {
 
     public static void main(String[] args) {
 
