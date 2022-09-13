@@ -1,5 +1,12 @@
 package day2;
 
+/**
+ * This application used by Bank of wells fargo
+ *
+ * @author Sushma Karki
+ * @version 1.0.0
+ */
+
 public class BankAccount {
 
     //States
