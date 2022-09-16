@@ -1,5 +1,7 @@
 package day9;
 
+import java.util.Arrays;
+
 public class StringPractice {
 
     public static void main(String[] args) {
@@ -57,6 +59,88 @@ public class StringPractice {
 
         boolean isSame1 = usernameSavedLower.equalsIgnoreCase(userNameLower);
         System.out.println(isSame1);
+
+
+        String policyReturned = "UL100006,06000001 AL00006,";
+
+        String firstPolicy = policyReturned.substring(0,8);
+        System.out.println(firstPolicy);
+
+        String secondPolicy = policyReturned.substring(10,18);
+        System.out.println(secondPolicy);
+
+        String thirdPolicy = policyReturned.substring(19,23);
+        System.out.println(thirdPolicy);
+
+        //Split
+
+        String[] splittedPolicies = policyReturned.split(",");
+        System.out.println(Arrays.toString(splittedPolicies));
+
+        System.out.println(splittedPolicies[0]);
+        System.out.println(splittedPolicies[01].trim());
+        System.out.println(splittedPolicies[02].trim());
+
+        //
+        //String ANB = "12 Months";
+       // String[] ageArray = ANB.split( " ");
+        //System.out.println(ageArray[0]);
+       // System.out.println(ageArray[1].trim());
+
+        String ANB = "12 Year";
+        String[] ageArray = ANB.split( " ");
+        System.out.println(ageArray[0]);
+        System.out.println(ageArray[1].trim());
+
+        //Compareto
+
+        String a = "a";
+        String e = "e";
+
+        int compared = a.compareTo(e); // a-e
+
+        System.out.println(compared);
+
+        int compare = e.compareTo(a); // e-a (-, 0,+)
+
+        System.out.println(compare);
+
+
+        String b = "b";
+        String B = "B";
+
+        int compares = b.compareToIgnoreCase(e);//
+        System.out.println(compared);
+
+        String c = "Taman";
+        String d = "Ram";
+
+        int compared1 = c.compareToIgnoreCase(d);
+        System.out.println(compared);
+
+        String greeting = "Hello".concat("Taman").concat("How are you?").concat("How you doing?");
+        System.out.println(greeting);
+
+        String greetings = "Hi"+ "How was your day?" + "How is your work going?"; // we can use + sign as concat
+        System.out.println(greetings);
+
+        // Contents helps to find any data or word
+
+        boolean isTamanContained =greetings.toLowerCase().contains("taman");
+        System.out.println(isTamanContained);
+
+        String number = String.valueOf(2); // When you use string value you can use any data type
+        String numbers = 2 +""+3+""; //String value added with concat
+
+
+
+
+
+
+
+
+
+
 
 
 
