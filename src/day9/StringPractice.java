@@ -79,7 +79,7 @@ public class StringPractice {
 
         System.out.println(splittedPolicies[0]);
         System.out.println(splittedPolicies[01].trim());
-        System.out.println(splittedPolicies[02].trim());
+
 
         //
         //String ANB = "12 Months";
@@ -131,6 +131,23 @@ public class StringPractice {
 
         String number = String.valueOf(2); // When you use string value you can use any data type
         String numbers = 2 +""+3+""; //String value added with concat
+
+
+        String fullName = "Taman Neupane";
+        String verifiactionEmailLink = "http://somedomain.com/verify/asdsd414";
+        String combineString = "Hello !" + fullName + "Welcome to our website" +"Please click on this link to verify your email address"+"verificationEmaillink";
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("Hello !");
+        builder.append(fullName);
+        builder.append("Welcome to our website.");
+        builder.append("please click on this link to verify your email address");
+        builder.append("verificationEmailLink");
+
+        String builderCombinedString = builder.toString();
+
+        System.out.println(combineString);
+        System.out.println(builderCombinedString);
 
 
 
