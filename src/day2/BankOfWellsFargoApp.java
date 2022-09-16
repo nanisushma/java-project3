@@ -59,7 +59,33 @@ public class BankOfWellsFargoApp {
         friendAccount.setBankBalance(friendFinalBalance);
 
 
+        BankAccount bankAccount1 = new BankAccount();
 
+        // bankAccount1.setAccountNumber();
+        bankAccount1.setAccountHolderName ("Bishal Karki");
+        bankAccount1.setBankBalance(7000);
+        bankAccount1.bankName = "bank of america";
+        bankAccount1.setConnectedMobileNumber("9849018753");
+        bankAccount1.setAddress("Hawaii Honolulu");
+        bankAccount1.setBankAccountType(BankAccountType.SAVING);
+
+
+        BankAccount bankAccount2 = new BankAccount();
+
+        // bankAccount2.setAccountNumber();
+        bankAccount2.setAccountHolderName ("Bishal Karki");
+        bankAccount2.setBankBalance(7000);
+        bankAccount2.bankName = "bank of america";
+        bankAccount2.setConnectedMobileNumber("9849018753");
+        bankAccount2.setAddress("Hawaii Honolulu");
+        bankAccount2.setBankAccountType(BankAccountType.SAVING);
+
+
+        boolean isInSameMemoryLocation = bankAccount1 == bankAccount2;
+        System.out.println(isInSameMemoryLocation);
+
+        boolean isInSameMemoryLocation1 = bankAccount1.equals(bankAccount2);
+        System.out.println(isInSameMemoryLocation1);
 
     }
 }

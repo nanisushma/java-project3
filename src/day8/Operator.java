@@ -1,5 +1,7 @@
 package day8;
 
+import java.util.function.Function;
+
 public class Operator {
 
    public static void main(String[] args) {
@@ -53,6 +55,8 @@ public class Operator {
           int percentage = 91;
 
           boolean isDistinction = percentage > 90;
+
+
 
 
 
