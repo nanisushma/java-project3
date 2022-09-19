@@ -31,12 +31,12 @@ public class MarkSheet {
         System.out.println("Enter mark obtained in social");
         int sociL = scanner.nextInt();
 
-        System.out.println(name);
-        System.out.println(maths);
-        System.out.println(science);
-        System.out.println(english);
-        System.out.println(computer);
-        System.out.println(sociL);
+        //System.out.println(name);
+        //System.out.println(maths);
+       // System.out.println(science);
+        //System.out.println(english);
+        //System.out.println(computer);
+        //System.out.println(sociL);
 
         float percentage =((maths + science + english + computer + sociL )/500f)*100;
 
