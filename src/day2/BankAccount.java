@@ -21,6 +21,15 @@ public class BankAccount {
 
     private BankAccountType BankAccountType;
 
+   // private String street;
+   // private String city;
+   // private String state;
+   // private int zip;
+
+    private Address address1;
+
+
+
 
  public String getAccountNumber() {
   return accountNumber;
