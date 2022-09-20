@@ -4,27 +4,14 @@ public class OfficeApp {
 
     public static void main(String[] args) {
 
+      Employee employee = new Employee("A", 22, "Resul",400);
 
+       Manager manager = new Manager("A",23,"Test",5000);
+       manager.setBonus(1000);
 
-        Employee employee = new Employee();
-
-        employee.getName();
-        employee.getAge();
-        employee.getAddress();
-        employee.getSalary();
-
-
-
-        Manager manager = new Manager();
-
-        manager.getName();
-        manager.getAge();
-        manager.getAddress();
-        manager.getSalary();
-
-        manager.getBonus();
-
-
+       System.out.println(manager.getSalary());
 
     }
+
+
 }

@@ -7,6 +7,18 @@ public class Employee {
     private String address;
     private double salary;
 
+    public Employee () {
+        System.out.println("Employee Constructor called");
+    }
+
+    public Employee(String name, int age, String address, double salary) {
+        System.out.println("Employee Parameterized Constructor Called");
+        this.name = name;
+        this.age = age;
+        this.address = address;
+        this.salary = salary;
+    }
+
     public String getName() {
         return name;
     }
