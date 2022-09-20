@@ -7,7 +7,13 @@ import java.util.HashMap;
 
 public class ArrayPractice {
 
+    static class Helper{
+        private int date = 5;
+    }
+
     public static void main(String[] args) {
+
+        int date = 5;
 
         int[] a =new int[10];
 
