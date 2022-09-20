@@ -44,6 +44,7 @@ public class Employee {
     }
 
     public double getSalary() {
+        System.out.println("Employee get salary");
         return salary;
     }
 

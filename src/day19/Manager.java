@@ -17,6 +17,7 @@ public sealed class Manager extends Employee permits Executive {
 
      @Override
     public double getSalary() {
+         System.out.println("Manager get salary");
         double totalSalary = super.getSalary() + bonus ;
         return totalSalary;
 
